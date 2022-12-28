@@ -32,4 +32,22 @@ Gestures are also used to control the robotic arm’s end effector. The arm has 
 
 ## Results
 
-![Result](results/fp.png)
+### Detecting hand landmarks
+
+<img src="results/land_detec1.png" alt="drawing" width="230" height="250"/>
+<img src="results/land_detec2.png" alt="drawing" width="230" height="250"/>
+
+
+### Controlling computer screen with detected hand landmark
+
+![gif](results/mouse_control.gif) 
+
+### Controlling simulated robotic arm with detected hand landmarks
+
+Here the detected gesture has been mapped to home position. The robotic arm is therefores going to its home position
+
+![result1](results/home.png) 
+
+Here the detected gesture has been mapped to right position. So the robotic arm is turning to right
+
+![result2](results/right.png) 
